@@ -1,0 +1,32 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:Custom="http://schemas.devexpress.com/winfx/2008/xaml/printingcore/xtraprinting/native/presentation" x:Class="luhn_wpf.MainWindow"
+        Title="MainWindow" Height="351" Width="527">
+    <Grid>
+        <TextBox x:Name="Girdi" HorizontalAlignment="Left" Height="22" Margin="158,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" RenderTransformOrigin="0.5,0.5" ToolTip="Kart Numarasını girin" SpellCheck.IsEnabled="True" TextChanged="Girdi_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.097"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Kart Numarasını Girin: " HorizontalAlignment="Left" Height="27" Margin="26,44,0,0" VerticalAlignment="Top" Width="127"/>
+
+        <dx:SimpleButton x:Name="Check_Card" Content="Kontrol Et" HorizontalAlignment="Left" Height="27" Margin="330,44,0,0" VerticalAlignment="Top" Width="133" ToolTip="Kontrol Et" Glyph="{dx:DXImage Image=Apply_32x32.png}" Click="Check_Card_Click" IsDefault="True">
+            <dx:SimpleButton.ContextMenu>
+                <ContextMenu/>
+            </dx:SimpleButton.ContextMenu>
+            <dx:SimpleButton.Effect>
+                <DropShadowEffect/>
+            </dx:SimpleButton.Effect>
+        </dx:SimpleButton>
+        <TextBlock x:Name="girilenKartNo" HorizontalAlignment="Left" Height="32" Margin="82,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" FontSize="14"/>
+        <Image x:Name="gecerli" Margin="347,118,138,169" Source="Apply_32x32.png" Stretch="Fill"/>
+        <Image x:Name="gecersiz" Margin="347,117,138,170" Source="Cancel_32x32.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

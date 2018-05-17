@@ -1,0 +1,6 @@
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\bin\Debug\Luhn_algoritması.exe.config
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\bin\Debug\Luhn_algoritması.exe
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\bin\Debug\Luhn_algoritması.pdb
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\obj\Debug\Luhn_algoritması.csprojResolveAssemblyReference.cache
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\obj\Debug\Luhn_algoritması.exe
+C:\Users\EDE\Desktop\Object Orienterd Programming\Luhn_algoritması\Luhn_algoritması\obj\Debug\Luhn_algoritması.pdb
